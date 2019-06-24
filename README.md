@@ -1,7 +1,7 @@
 # php_laravel_challenge
-A code test to assess developer skils, during the recruitment process for nayojobs.com
+A code test to assess developer skills, during the recruitment process for nayojobs.com
 
-Create a project to manage companies and their employees. Mini-CRM.
+Create a project to manage companies and their employees.
 
 ## Basic Laravel Auth: 
 Ability to log in as administrator.

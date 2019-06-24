@@ -39,6 +39,8 @@ First name (required), last name (required), Company (foreign key to Companies),
 
 Fork this repo, complete the challenge and share your solutions repo with me.
 
+There’s no time limit on this challenge, however it should not take too long to complete.
+
 ### Please include:
 
 * instructions on how to run your solution

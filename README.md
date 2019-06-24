@@ -25,15 +25,15 @@ First name (required), last name (required), Company (foreign key to Companies),
 
 * Use database migrations to create those schemas above.
 
-*Store companies logos in storage/app/public folder and make them accessible from public.
+* Store companies logos in storage/app/public folder and make them accessible from public.
 
-*Use basic Laravel resource controllers with default methods – index, create, store etc.
+* Use basic Laravel resource controllers with default methods – index, create, store etc.
 
-*Use Laravel’s validation function, using Request classes.
+* Use Laravel’s validation function, using Request classes.
 
-*Use Laravel’s pagination for showing Companies/Employees list, 10 entries per page.
+* Use Laravel’s pagination for showing Companies/Employees list, 10 entries per page.
 
-*Use Laravel make:auth as default Bootstrap-based design theme, but remove ability to register.
+* Use Laravel make:auth as default Bootstrap-based design theme, but remove ability to register.
 
 ## Submitting this challenge 
 

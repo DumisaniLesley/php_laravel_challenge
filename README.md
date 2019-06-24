@@ -4,6 +4,7 @@ A code test to assess developer skils, during the recruitment process for nayojo
 Create a project to manage companies and their employees. Mini-CRM.
 
 ##Basic Laravel Auth: 
+
 ability to log in as administrator
 
 ##Database:

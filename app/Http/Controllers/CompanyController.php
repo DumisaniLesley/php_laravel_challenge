@@ -131,7 +131,8 @@ class CompanyController extends Controller
         $request->session()->flash('message.content', 'Success, you have edited the company details!');
 
         $company = Company::find(request('companyID'));
-        return view('app.company.show',compact('company'));
+        $employees = Employee::where('companyID',$company->id)->paginate(10);
+        return view('app.company.show',compact('company','employees'));
     }
 
     /**

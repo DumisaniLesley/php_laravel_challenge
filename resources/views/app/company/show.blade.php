@@ -75,14 +75,16 @@
                         </thead>
                         <tbody>
                             
-                            @foreach($employees as $employee)
-                            <tr onclick="location.href='/employee/show/{{ $employee->id }}';">
-                                <td scope="row">{{ $employee->id }}</td>
-                                <td>{{ $employee->firstName }} {{ $employee->lastName }}</td>
-                                <td>{{ $employee->email }}</td>
-                                <td>{{ $employee->phone }}</td>
-                            </tr>
-                            @endforeach
+                            @if(!empty($employees))
+                              @foreach($employees as $employee)
+                              <tr onclick="location.href='/employee/show/{{ $employee->id }}';">
+                               <td scope="row">{{ $employee->id }}</td>
+                               <td>{{ $employee->firstName }} {{ $employee->lastName }}</td>
+                               <td>{{ $employee->email }}</td>
+                               <td>{{ $employee->phone }}</td>
+                              </tr>
+                              @endforeach
+                            @endif
                         </tbody>
                     </table>
 

@@ -11,7 +11,8 @@ class CompanySeeder extends Seeder
      * @return void
      */
     public function run()
-    {
-        factory(Company::class)->create();
+    {  
+        $count = 100;
+        factory(Company::class,$count)->create();
     }
 }

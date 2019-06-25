@@ -43,7 +43,7 @@
                                 <div class="company" style="background-image: url('{{ Local::getURL($company->logo) }}')"></div>
                             @else
                                 <div class="company">
-                                    <h1>Z</h1>
+                                    <h1>{{ substr($company->name, 0,1) }}</h1>
                                 </div>
                             @endif
                         </div>
@@ -74,7 +74,7 @@
                             </tr>
                         </thead>
                         <tbody>
-                            {{$employees}}
+                            
                             @foreach($employees as $employee)
                             <tr onclick="location.href='/employee/show/{{ $employee->id }}';">
                                 <td scope="row">{{ $employee->id }}</td>

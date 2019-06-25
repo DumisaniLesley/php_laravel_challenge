@@ -24,7 +24,7 @@
                             <a class="btn btn-primary btn-block" href="/company/create">Add Company</a>
                         </div>
                     </div>
-
+                    <br><br>
 
                     <table class="table">
                         <thead>
@@ -33,7 +33,6 @@
                                 <th>Name</th>
                                 <th>Email</th>
                                 <th>Website</th>
-                                <th>Logo</th>
                             </tr>
                         </thead>
                         <tbody>

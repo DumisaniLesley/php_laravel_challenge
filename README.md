@@ -45,7 +45,13 @@ There’s no time limit on this challenge, however it should not take too long t
 
 * instructions on how to run your solution
 
+## Configuration 
 
+To set up this challenge application 
+* Create a mysql database and add the credentials to your .env file
+* Run "php artisan migrate --seed" to create administrator account and demo data. 
+* Run "php artisan storage:link" to add a symbolic link to the public folder 
+* Login with email admin@admin.com and password “password”
 
 
 

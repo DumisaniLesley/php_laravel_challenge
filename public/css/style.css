@@ -1,0 +1,18 @@
+.company {
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    color: #FFF;
+    padding-top: 10%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.company h1 {
+    font-weight: 900;
+    font-size: 42px;
+    text-align: center;
+}
+.companyDetails {
+    text-align: left;
+}
